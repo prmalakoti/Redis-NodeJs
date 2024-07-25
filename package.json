@@ -1,0 +1,27 @@
+{
+  "name": "redis-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prmalakoti/Redis-NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prmalakoti/Redis-NodeJs/issues"
+  },
+  "homepage": "https://github.com/prmalakoti/Redis-NodeJs#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "redis": "^4.6.15"
+  }
+}
